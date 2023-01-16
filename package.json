@@ -1,0 +1,19 @@
+{
+  "name": "wx-miniexe-shop",
+  "version": "1.0.0",
+  "description": "null",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayang76/wx-miniexe-shop.git"
+  },
+  "author": "dayang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayang76/wx-miniexe-shop/issues"
+  },
+  "homepage": "https://github.com/dayang76/wx-miniexe-shop#readme"
+}
