@@ -1,11 +1,13 @@
 // app.js
 App({
   onLaunch() {
-    Object.defineProperties.myprote = function () {
-      console.log('my object prote');
+    function Myprote (){
     }
-    const myprote = {}
-    console.log(myprote.myprote);
+    Myprote.prototype.test = function(){
+        console.log('Myprote原型上的方法')
+    }
+    const myprote = new Myprote()
+    console.log(myprote.test);
   },
 })
 // master分支第二次修改
